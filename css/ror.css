@@ -1,0 +1,403 @@
+.box {
+    height: 126px;
+    box-shadow: 0px 5px 5px 5px #444;
+}
+
+.logo {
+    padding: 16px 0px;
+}
+
+
+/* navigation  */
+
+.nav_position {
+    margin-top: 54px;
+    margin-left: 161px;
+    font-size: 15px;
+}
+
+.navbar-default {
+    background: none;
+    border: none;
+}
+
+.navbar a {
+    color: black;
+}
+
+.nav ul li {
+    margin-top: 10px;
+}
+
+.nav ul li:hover>a {
+    background: none;
+    color: blue;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: blue;
+}
+
+.nav li i {
+    padding: 0px 10px;
+}
+
+.nav li a {
+    font-weight: 700;
+    color: black;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    border: none;
+}
+
+
+/* end navigation  */
+
+
+/* first font  */
+
+.banner {
+    background: url(../image/banner_new1.jpeg)no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    padding: 28px;
+}
+
+.ror {
+    font-size: 64px;
+    color: #1624f0;
+    font-weight: 700;
+    margin-top: 120px;
+}
+
+.button {
+    background-color: #1624f0;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.button:hover {
+    background-color: rgb(103, 96, 109);
+    border: solid;
+    color: #fff;
+}
+
+.ruby-font {
+    font-weight: 700;
+    text-align: center;
+    margin: 35px;
+}
+
+
+/* end first font  */
+
+
+/* section  */
+
+.section-agile-working {
+    background: url(../image/about.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 80px 0;
+    margin-top: 40px;
+}
+
+.global-h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    color: #fff;
+}
+
+.p-white {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.ul_blog_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-bottom: 22px;
+}
+
+.ul_blog_list li {
+    position: relative;
+    font-family: poppins;
+    font-size: 18px;
+    color: #0080c6;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    font-weight: 700;
+    padding-left: 22px;
+    margin-bottom: 12px;
+}
+
+.ul_blog_list li:after {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    content: " ";
+    width: 8px;
+    height: 8px;
+    background: #202020;
+    border-radius: 50%;
+    margin-top: -4px;
+}
+
+.ul_blog_list li:last-child {
+    margin-bottom: 0;
+}
+
+.banner_agile .right_img {
+    top: 0;
+    height: 557px;
+    width: auto;
+    margin-top: 30px;
+}
+
+.section_inner_agile p {
+    color: #333;
+}
+
+.section_agile_working {
+    background: url(../images/agile_bg_blue.png);
+    background-size: cover;
+    background-position: center center;
+    padding: 80px 0;
+}
+
+.p_a_working {
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+.ul_agile_w {
+    padding: 0;
+    margin: 0 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    list-style: none;
+    position: relative;
+    margin-top: 40px;
+}
+
+.ul_agile_w li a span {
+    width: 170px;
+    height: 170px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ul_agile_w li a span svg {
+    width: 110px;
+    height: 110px;
+}
+
+.ul_agile_w li {
+    padding: 0 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.agile_ul_content a p {
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+}
+
+.agile_ul_content a h2,
+.agile_ul_content a h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.85px;
+    line-height: 26px;
+    margin-bottom: 5px;
+}
+
+.agile_ul_content>a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding-left: 185px;
+    min-height: 170px;
+}
+
+.agile_ul_content {
+    max-width: 50%;
+    padding-right: 30px;
+}
+
+.right_li_agile .agile_ul_content {
+    margin-left: auto;
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+.right_li_agile .agile_ul_content>a {
+    padding-left: 0;
+    padding-right: 185px;
+    text-align: right;
+}
+
+.right_li_agile .agile_ul_content span {
+    left: auto;
+    right: 0;
+}
+
+.ul_agile_w li a span {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.ul_agile_w:after {
+    position: absolute;
+    left: 50%;
+    background: rgba(255, 255, 255, 0.23);
+    width: 2px;
+    height: 100%;
+    content: " ";
+    margin-left: -1px;
+}
+
+.right_li_agile .agile_ul_content>a:After {
+    right: auto;
+    left: -42px;
+}
+
+.agile_ul_content>a:After {
+    position: absolute;
+    content: " ";
+    height: 24px;
+    width: 24px;
+    right: -42px;
+    top: 50%;
+    border-radius: 4px;
+    z-index: 1;
+    margin-top: -12px;
+    transform: rotate(45deg);
+    background: linear-gradient(140deg, #0784c7, #38baff);
+}
+
+.agile-image-right {
+    margin-top: 22px;
+    margin-left: 376px;
+    position: absolute;
+}
+
+.agile-image-left {
+    margin-top: 8px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+
+/* end section  */
+
+
+/* ruby service  */
+
+.service-font {
+    text-align: center;
+    margin-top: 40px;
+    padding: 5px 60px;
+}
+
+.service-font p {
+    font-size: 20px;
+}
+
+.box-effact {
+    height: 290px;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 40px;
+    box-shadow: 5px 5px 5px 5px #444;
+    padding: 10px 10px;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.phone {
+    margin-top: 320px;
+}
+
+
+/* end ruby service  */
+
+
+/* three box hover effatc  */
+
+.banner3 {
+    background: url(../image/original.gif)no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    padding: 28px;
+    color: #fff;
+}
+
+.last_box {
+    width: 350px;
+    height: 400px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 5px 5px #444;
+}
+
+
+/* end three box hover effact  */
+
+
+/* footer  */
+
+.footer {
+    background-color: steelblue;
+    margin: 20px 0;
+    padding: 35px 0;
+    color: #fff;
+    width: auto;
+}
+
+.footer p {
+    color: #fff;
+    margin-top: 10px;
+}
+
+
+/* end footer  */

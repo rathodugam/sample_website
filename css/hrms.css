@@ -1,0 +1,277 @@
+.box {
+    height: 130px;
+    box-shadow: 0px 5px 5px 5px #444;
+}
+
+.logo {
+    padding: 16px 0px;
+}
+
+
+/* navigation  */
+
+.nav_position {
+    margin-top: 5vw;
+    margin-left: 40vh;
+    font-size: 15px;
+}
+
+.navbar-default {
+    background: none;
+    border: none;
+}
+
+.navbar a {
+    color: black;
+}
+
+.nav ul li:hover>a {
+    background: none;
+    color: blue;
+}
+
+.nav a:before {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.nav a {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #000;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: blue;
+}
+
+.nav ul li {
+    margin-top: 10px;
+}
+
+.nav li i {
+    padding: 0px 10px;
+}
+
+.nav li a {
+    font-weight: 700;
+    color: black;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    border: none;
+}
+
+.collapse {
+    display: block;
+}
+
+
+/* end navigation  */
+
+
+/* first section  */
+
+.banner {
+    background: url(../image/banner_new1.jpeg)no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    padding: 10vh;
+}
+
+.hrms-font {
+    margin-top: 120px;
+}
+
+.hrms-font h1 {
+    color: #0784c7;
+    font-weight: 700;
+}
+
+.button {
+    background-color: #1624f0;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.button:hover {
+    background-color: rgb(103, 96, 109);
+    border: solid;
+    color: #fff;
+}
+
+
+/* end first section  */
+
+.about-font {
+    margin-top: 70px;
+    line-height: 30px;
+    padding: 19px 20px;
+}
+
+.about-font h1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-font {
+    font-size: 25px;
+}
+
+
+/* taking away  */
+
+.banner1 {
+    background: url(../image/blue.png);
+    background-size: cover;
+    background-position: center center;
+    padding: 0px 35px;
+    color: #fff;
+}
+
+.ul_two_col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    margin: 0 -19px;
+    line-height: 30px;
+}
+
+.ul_two_col li {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 10px 35px;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+
+/* button  */
+
+.button1 {
+    background-color: #1624f0;
+    border: none;
+    color: #fff;
+    padding: 25px 44px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    margin-left: 550px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.button1:hover {
+    background-color: rgb(103, 96, 109);
+    color: #fff;
+}
+
+
+/* end button  */
+
+
+/* end taking away  */
+
+
+/* last three box   */
+
+.zoom {
+    transition: transform .9s;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.last_box {
+    width: 50vh;
+    height: 64vh;
+    padding: 20px 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 5px 5px #444;
+}
+
+
+/* end last three box  */
+
+
+/* footer  */
+
+.footer {
+    background-color: steelblue;
+    margin: 20px 0;
+    padding: 35px 0;
+    color: #fff;
+}
+
+.footer p {
+    color: #fff;
+    margin-top: 10px;
+}
+
+
+/* end footer  */
+
+
+/* example  */
+
+.list {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-bottom: 0;
+    transition: ease-in-out .5s;
+    cursor: pointer;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list:Hover {
+    -webkit-box-shadow: 0 0 10px rgba(7, 132, 199, 0.1);
+    box-shadow: 0 0 10px rgba(7, 132, 199, 0.1);
+    -webkit-transform: translateY(-9px);
+    transform: translateY(-9px);
+    -webkit-box-shadow: 0 0 10px rgba(7, 132, 199, 0.1);
+    box-shadow: 0 0 10px rgba(7, 132, 199, 0.1);
+    -webkit-transform: translateY(-9px);
+    transform: translateY(-9px);
+}
